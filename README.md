@@ -80,7 +80,7 @@ Review the HTML log in your archive folder after the run.
 - **Back up your archive.** Do not treat the index file as a substitute for archived HTML files and attachments.
 - The archiver itself does **not** delete Gmail messages. Any future Gmail deletion step must independently verify that the complete conversation and its attachments have been archived before deleting anything.
 - Do not manually remove archived files without considering their entries in the archive index.
-- The private settings file and all OAuth/token files should be excluded from version control; publish only the example settings file.
+- The private settings file and all OAuth/token files should be kept private for security reasons. Never share these files with anyone.
 
 ## Credits
 
