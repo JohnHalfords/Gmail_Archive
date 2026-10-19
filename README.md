@@ -1,7 +1,7 @@
 # Gmail_Archive
 PowerShell Archive Gmail emails labeled with a specific label
 ---
-Produces a html log with filters
+Produces a html log with filters<br>
 Highly commented
 ---
 In the first line of the PowerShell script you can change a lot of settings: <br>
