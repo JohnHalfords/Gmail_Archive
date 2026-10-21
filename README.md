@@ -1,3 +1,7 @@
+* Gmail Archive — by John Halfords, the Netherlands        
+<a href="https://github.com/JohnHalfords/Gmail_Archive">For download, go to the Github page...</a>
+<br>
+
 # Gmail Archive — by John Halfords
 
 A Windows PowerShell 5.1 utility for creating an independent, browsable HTML archive of Gmail conversations, including attachments. An optional **separate** cleanup script can move fully verified messages to Gmail Trash.
