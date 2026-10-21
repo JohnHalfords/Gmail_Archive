@@ -1,6 +1,3 @@
-* Gmail Archive — by John Halfords, the Netherlands        
-<a href="https://github.com/JohnHalfords/Gmail_Archive">For download, go to the Github page...</a>
-<br>
 
 # Gmail Archive — by John Halfords
 
@@ -73,8 +70,7 @@ Important settings:
 
 ## OAuth setup
 
-For beginners: [Google's Gmail API setup guide](https://developers.google.com/workspace/gmail/api/quickstart/python)
-(follow the Google Cloud and OAuth setup steps; Python installation is not required).
+For beginners: [Google's Gmail API setup guide](https://developers.google.com/workspace/gmail/api/quickstart/python) (follow the Google Cloud and OAuth setup steps; Python installation is not required).
 
 1. Create a Google Cloud project, enable the Gmail API, and create OAuth credentials for a desktop application.
 2. Create a `private/` folder next to the scripts and save the downloaded OAuth credentials as `GmailOAuth.json` (or the filename specified in settings).
