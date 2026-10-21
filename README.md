@@ -84,7 +84,7 @@ Gmail Archive requires the `gmail.readonly` scope, while Gmail Archive Delete re
 Access tokens are refreshed during long runs. The scripts read the OAuth files from `private/`.
 
 
-### Optional: move verified messages to Gmail Trash
+## Optional: move verified messages to Gmail Trash
 
 The Delete script is intentionally separate. It checks the current Gmail message IDs against the archive index **per conversation**. If there is any discrepancy, the entire conversation is blocked. For eligible conversations, it uses individual `messages.trash` operations, **not** `threads.trash`, and requires confirmation before making Gmail changes. It never deletes local archive files. **Trash is not permanent deletion**, but emptying Gmail Trash later is permanent; verify your archive first.
 
